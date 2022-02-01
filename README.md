@@ -20,7 +20,7 @@ This project serves as a base dependency for Solidity-based smart contract proje
 Install as a module dependency in your host NodeJS project:
 
 ```bash
-npm install --save-dev @animoca/ethereum-contracts-core_library
+npm install --save-dev @cryptogesic/ethereum-contracts-core_library
 ```
 
 
@@ -48,7 +48,7 @@ Runs the test coverage.
 Import dependency contracts into your Solidity contracts and derive as needed:
 
 ```solidity
-import "@animoca/ethereum-contracts-core_library/contracts/{{Contract Group}}/{{Contract}}.sol"
+import "@cryptogesic/ethereum-contracts-core_library/contracts/{{Contract Group}}/{{Contract}}.sol"
 ```
 
 #### Test and Migration Scripts
@@ -56,5 +56,5 @@ import "@animoca/ethereum-contracts-core_library/contracts/{{Contract Group}}/{{
 Require the NodeJS module dependency in your test and migration scripts as needed:
 
 ```javascript
-const { constants, interfaces, behaviors } = require('@animoca/ethereum-contracts-core_library');
+const { constants, interfaces, behaviors } = require('@cryptogesic/ethereum-contracts-core_library');
 ```
